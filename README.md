@@ -5,6 +5,12 @@ Final Project OOP
 Does it work?
 No
 
+Is it done?
+No
+
+Do I know what I'm doing?
+No
+
 - [x] Casting/Conversion
 - [x] Constructor
 - [x] Casting/Conversion
