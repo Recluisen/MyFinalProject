@@ -8,16 +8,16 @@ No
 - [x] Casting/Conversion
 - [x] Constructor
 - [x] Casting/Conversion
-- [] Overloading
-- [] Overriding
+- [ ] Overloading
+- [ ] Overriding
 - [x] Encapsulation
-- [] Inheritance
-- [] Polymorphism
-- [] ArrayList
+- [ ] Inheritance
+- [ ] Polymorphism
+- [ ] ArrayList
 - [x] Exception Handling
 - [x] GUI
-- [] Interface
-- [] Abstract Class
-- [] Generics
-- [] Collection
-- [] Input Output
+- [ ] Interface
+- [ ] Abstract Class
+- [ ] Generics
+- [ ] Collection
+- [ ] Input Output
