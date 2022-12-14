@@ -16,6 +16,7 @@ https://github.com/Recluisen/MyFinalProject/blob/77362331d9341dc1ccf04ed9dbd1d67
 - [x] Encapsulation
 - [x] Inheritance
 - [x] Polymorphism
+https://github.com/Recluisen/MyFinalProject/blob/eb891f8a7306185bdb90147693ffbc7a843a1849/src/main/java/com/finals/myfinalproject/PianoController.java#L150-L153
 - [x] ArrayList
 https://github.com/Recluisen/MyFinalProject/blob/3d4680021b1b721b0095a14ac0efeffe1c7f89f3/src/main/java/com/finals/myfinalproject/PianoController.java#L12-L16
 https://github.com/Recluisen/MyFinalProject/blob/3d4680021b1b721b0095a14ac0efeffe1c7f89f3/src/main/java/com/finals/myfinalproject/PianoController.java#L151-L153
