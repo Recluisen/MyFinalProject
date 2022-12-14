@@ -134,6 +134,10 @@ public class PianoController{
     @FXML
     private Button keyB5;
 
+    public void initialize(){
+
+    }
+
     public void playKeyG1(){
 
     }

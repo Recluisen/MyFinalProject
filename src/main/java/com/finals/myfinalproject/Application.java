@@ -1,5 +1,6 @@
 package com.finals.myfinalproject;
 
+import Instrument.Piano;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -16,6 +17,7 @@ public class Application extends javafx.application.Application {
         stage.setTitle("MiniPiano");
         stage.setScene(scene);
         stage.show();
+        //Piano p = new Piano();
         //PianoKeys p = new PianoKeys(keyName.G,1);
         //p.playKey();
 
