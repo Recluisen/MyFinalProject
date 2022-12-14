@@ -64,16 +64,16 @@ https://github.com/Recluisen/MyFinalProject/blob/3d4680021b1b721b0095a14ac0efeff
 
 References:
 
-https://www.w3schools.com/java/java_polymorphism.asp
-https://www.javatpoint.com/collections-in-java
-https://stackoverflow.com/questions/3797206/calling-parent-class-method-from-child-class-object-in-java
-https://docs.oracle.com/javafx/2/api/javafx/scene/media/MediaPlayer.html
-https://edencoding.com/playing-audio/#audioclip
-https://stackoverflow.com/questions/54505995/how-to-get-mediaplayer-to-repeatedly-play-sound
-https://stackoverflow.com/questions/23202272/how-to-play-sounds-with-javafx
-https://www.youtube.com/watch?v=9XJicRt_FaI
-https://virtualpiano.net/
-https://stackoverflow.com/questions/61531317/how-do-i-determine-the-correct-path-for-fxml-files-css-files-images-and-other
-https://stackoverflow.com/questions/42266662/how-to-make-a-button-work-from-another-class-javafx
-https://edencoding.com/fxmlloader/
-https://stackoverflow.com/questions/5071040/java-convert-integer-to-string
+-https://www.w3schools.com/java/java_polymorphism.asp
+-https://www.javatpoint.com/collections-in-java
+-https://stackoverflow.com/questions/3797206/calling-parent-class-method-from-child-class-object-in-java
+-https://docs.oracle.com/javafx/2/api/javafx/scene/media/MediaPlayer.html
+-https://edencoding.com/playing-audio/#audioclip
+-https://stackoverflow.com/questions/54505995/how-to-get-mediaplayer-to-repeatedly-play-sound
+-https://stackoverflow.com/questions/23202272/how-to-play-sounds-with-javafx
+-https://www.youtube.com/watch?v=9XJicRt_FaI
+-https://virtualpiano.net/
+-https://stackoverflow.com/questions/61531317/how-do-i-determine-the-correct-path-for-fxml-files-css-files-images-and-other
+-https://stackoverflow.com/questions/42266662/how-to-make-a-button-work-from-another-class-javafx
+-https://edencoding.com/fxmlloader/
+-https://stackoverflow.com/questions/5071040/java-convert-integer-to-string
