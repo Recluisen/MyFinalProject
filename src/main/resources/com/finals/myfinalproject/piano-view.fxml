@@ -2,6 +2,8 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
@@ -70,5 +72,11 @@
             <Font size="31.0" />
          </font>
       </Label>
+      <MenuButton fx:id="moreButton" alignment="CENTER" layoutX="29.0" layoutY="631.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="194.0" text="Play Animal Sounds">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#playAnimalNone" text="None" />
+          <MenuItem mnemonicParsing="false" onAction="#playAnimalDog" text="Dog" />
+        </items>
+      </MenuButton>
    </children>
 </AnchorPane>

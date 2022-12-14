@@ -1,11 +1,21 @@
 package com.finals.myfinalproject;
 
+import Instrument.Animal;
+import Instrument.Dog;
 import Instrument.Piano;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.MenuButton;
+
+import java.util.ArrayList;
 
 public class PianoController{
     private Piano p;
+    private ArrayList<Animal> animals;
+    private Animal a;
+    private Animal d;
+    @FXML
+    MenuButton moreButton;
     @FXML
     private Button keyC2;
     @FXML
@@ -138,6 +148,9 @@ public class PianoController{
 
     public void initialize(){
         p = new Piano();
+        animals = new ArrayList<>();
+        animals.add(new Animal("None"));
+        animals.add(new Dog());
     }
     public Piano getPiano(){
         return p;
@@ -259,5 +272,11 @@ public class PianoController{
         p.getKey("Eb", 6).playKey();
     } public void playKeyE6(){
         p.getKey("E", 6).playKey();
+    }
+    public void playAnimalNone(){
+        animals.get(0).playSound();
+    }
+    public void playAnimalDog(){
+        animals.get(1).playSound();
     }
 }
