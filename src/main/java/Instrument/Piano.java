@@ -57,40 +57,84 @@ public class Piano {
     public PianoKeys getKey(keyName k, int Octave){
         try{
             if(k == keyName.C){
-
+                return keyC[Octave-2];
             }
             else if(k == keyName.DFLAT){
-
+                return keyDb[Octave-2];
             }
             else if(k == keyName.D){
-
+                return keyD[Octave-2];
             }
             else if(k == keyName.EFLAT){
-
+                return keyEb[Octave-2];
             }
             else if(k == keyName.E){
-
+                return keyE[Octave-2];
             }
             else if(k == keyName.F){
-
+                return keyF[Octave-2];
             }
             else if(k == keyName.GFLAT){
-
+                return keyGb[Octave-2];
             }
             else if(k == keyName.G){
-
+                return keyG[Octave-1];
             }
             else if(k == keyName.AFLAT){
-
+                return keyAb[Octave-1];
             }
             else if(k == keyName.A){
-
+                return keyA[Octave-1];
             }
             else if(k == keyName.BFLAT){
-
+                return keyBb[Octave-1];
             }
             else if(k == keyName.B){
-
+                return keyB[Octave-1];
+            }
+        }
+        catch(Exception e){
+            System.out.println(e);
+        }
+        return null;
+    }
+    public PianoKeys getKey(String k, int Octave){
+        try{
+            if(k.equals(keyName.C.getName())){
+                return keyC[Octave-2];
+            }
+            else if(k.equals(keyName.DFLAT.getName())){
+                return keyDb[Octave-2];
+            }
+            else if(k.equals(keyName.D.getName())){
+                return keyD[Octave-2];
+            }
+            else if(k.equals(keyName.EFLAT.getName())){
+                return keyEb[Octave-2];
+            }
+            else if(k.equals(keyName.E.getName())){
+                return keyE[Octave-2];
+            }
+            else if(k.equals(keyName.F.getName())){
+                return keyF[Octave-2];
+            }
+            else if(k.equals(keyName.GFLAT.getName())){
+                return keyGb[Octave-2];
+            }
+            else if(k.equals(keyName.G.getName())){
+                return keyG[Octave-1];
+            }
+            else if(k.equals(keyName.AFLAT.getName())){
+                return keyAb[Octave-1];
+            }
+            else if(k.equals(keyName.A.getName())){
+                return keyA[Octave-1];
+            }
+            else if(k.equals(keyName.BFLAT.getName())){
+                return keyBb[Octave-1];
+            }
+            else if(k.equals(keyName.B.getName())){
+                return keyB[Octave-1];
             }
         }
         catch(Exception e){
