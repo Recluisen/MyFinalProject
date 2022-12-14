@@ -1,12 +1,8 @@
 # MyFinalProject
 Final Project OOP
 
-
-Does it work?
-No
-
-Is it done?
-No
+Mikhael Aryasatya Nugraha
+5025211062
 
 Do I know what I'm doing?
 No
@@ -15,11 +11,11 @@ No
 - [x] Constructor
 - [x] Casting/Conversion
 - [X] Overloading
-- [ ] Overriding
+- [x] Overriding
 - [x] Encapsulation
-- [ ] Inheritance
-- [ ] Polymorphism
-- [ ] ArrayList
+- [x] Inheritance
+- [x] Polymorphism
+- [x] ArrayList
 - [x] Exception Handling
 - [x] GUI
 - [ ] Interface
