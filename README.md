@@ -4,9 +4,6 @@ Final Project OOP
 Mikhael Aryasatya Nugraha
 5025211062
 
-Do I know what I'm doing?
-No
-
 - [x] Casting/Conversion
 - [x] Constructor
 - [x] Casting/Conversion
@@ -23,3 +20,7 @@ No
 - [ ] Generics
 - [ ] Collection
 - [ ] Input Output
+
+
+References:
+...
