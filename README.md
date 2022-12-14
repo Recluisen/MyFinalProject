@@ -17,7 +17,7 @@ No
 - [X] Overloading
 - [ ] Overriding
 - [x] Encapsulation
-- [X] Inheritance
+- [ ] Inheritance
 - [ ] Polymorphism
 - [ ] ArrayList
 - [x] Exception Handling
