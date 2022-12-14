@@ -15,7 +15,7 @@ No
 - [x] Encapsulation
 - [x] Inheritance
 - [x] Polymorphism
-- [ ] ArrayList
+- [x] ArrayList
 - [x] Exception Handling
 - [x] GUI
 - [ ] Interface
