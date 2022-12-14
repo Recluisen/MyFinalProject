@@ -15,10 +15,10 @@ No
 - [x] Constructor
 - [x] Casting/Conversion
 - [X] Overloading
-- [ ] Overriding
+- [x] Overriding
 - [x] Encapsulation
-- [ ] Inheritance
-- [ ] Polymorphism
+- [x] Inheritance
+- [x] Polymorphism
 - [ ] ArrayList
 - [x] Exception Handling
 - [x] GUI
