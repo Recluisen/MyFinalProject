@@ -1,6 +1,8 @@
 # MyFinalProject
 Final Project OOP
 
+MiniPiano
+
 Mikhael Aryasatya Nugraha
 5025211062
 
