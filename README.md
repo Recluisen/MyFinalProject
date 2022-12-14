@@ -23,6 +23,7 @@ https://github.com/Recluisen/MyFinalProject/blob/3d4680021b1b721b0095a14ac0efeff
 - [x] Exception Handling
 https://github.com/Recluisen/MyFinalProject/blob/3d4680021b1b721b0095a14ac0efeffe1c7f89f3/src/main/java/Instrument/PianoKeys.java#L52-L66
 - [x] GUI
+https://github.com/Recluisen/MyFinalProject/blob/7928a64a0f42fc83e6579dcf1ed67c6c39d161bf/src/main/java/com/finals/myfinalproject/Application.java#L11-L29
 - [ ] Interface
 - [ ] Abstract Class
 - [ ] Generics
