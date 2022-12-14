@@ -10,6 +10,8 @@ Mikhael Aryasatya Nugraha
 https://github.com/Recluisen/MyFinalProject/blob/7e68edaac7508c3daac17c9e323a774f525ed6b4/src/main/java/Instrument/PianoKeys.java#L19-L43
 - [x] Constructor
 https://github.com/Recluisen/MyFinalProject/blob/7e68edaac7508c3daac17c9e323a774f525ed6b4/src/main/java/Instrument/PianoKeys.java#L16-L45
+https://github.com/Recluisen/MyFinalProject/blob/52a2c94de75aaa1ab5b422401dc38294b402cc9c/src/main/java/Instrument/Piano.java#L22-L55
+https://github.com/Recluisen/MyFinalProject/blob/52a2c94de75aaa1ab5b422401dc38294b402cc9c/src/main/java/Instrument/Animal.java#L13-L16
 - [X] Overloading
 https://github.com/Recluisen/MyFinalProject/blob/77362331d9341dc1ccf04ed9dbd1d678e85c9c43/src/main/java/Instrument/Piano.java#L57-L144
 - [x] Overriding
