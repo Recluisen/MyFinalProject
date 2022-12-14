@@ -7,64 +7,64 @@
 
 <AnchorPane prefHeight="720.0" prefWidth="960.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.finals.myfinalproject.PianoController">
    <children>
-      <Button id="c4" fx:id="keyC4" layoutX="34.0" layoutY="61.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button id="d4" fx:id="keyD4" layoutX="87.0" layoutY="61.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyDb4" layoutX="72.0" layoutY="35.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button id="e4" fx:id="keyE4" layoutX="140.0" layoutY="61.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button id="f4" fx:id="keyF4" layoutX="193.0" layoutY="61.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button id="g4" fx:id="keyG4" layoutX="246.0" layoutY="61.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button id="a4" fx:id="keyA4" layoutX="299.0" layoutY="61.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button id="b4" fx:id="keyB4" layoutX="352.0" layoutY="61.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button id="c5" fx:id="keyC5" layoutX="405.0" layoutY="61.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button id="d5" fx:id="keyD5" layoutX="458.0" layoutY="61.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button id="e5" fx:id="keyE5" layoutX="511.0" layoutY="61.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button id="f5" fx:id="keyF5" layoutX="564.0" layoutY="61.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button id="g5" fx:id="keyG5" layoutX="617.0" layoutY="61.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyEb4" layoutX="126.0" layoutY="35.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button fx:id="keyGb4" layoutX="231.0" layoutY="35.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button fx:id="keyAb4" layoutX="284.0" layoutY="35.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button fx:id="keyBb4" layoutX="337.0" layoutY="35.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button id="a5" fx:id="keyA5" layoutX="670.0" layoutY="61.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button id="b5" fx:id="keyB5" layoutX="723.0" layoutY="61.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button id="c6" fx:id="keyC6" layoutX="776.0" layoutY="61.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button id="d6" fx:id="keyD6" layoutX="829.0" layoutY="61.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyDb5" layoutX="443.0" layoutY="35.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button fx:id="keyEb5" layoutX="496.0" layoutY="35.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button fx:id="keyGb5" layoutX="602.0" layoutY="35.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button fx:id="keyAb5" layoutX="655.0" layoutY="35.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button fx:id="keyBb5" layoutX="708.0" layoutY="35.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button fx:id="keyDb6" layoutX="815.0" layoutY="35.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button id="e6" fx:id="keyE6" layoutX="882.0" layoutY="61.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyEb6" layoutX="868.0" layoutY="35.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button id="c4" fx:id="keyC4" layoutX="34.0" layoutY="61.0" mnemonicParsing="false" onAction="#playKeyC4" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button id="d4" fx:id="keyD4" layoutX="87.0" layoutY="61.0" mnemonicParsing="false" onAction="#playKeyD4" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button fx:id="keyDb4" layoutX="72.0" layoutY="35.0" mnemonicParsing="false" onAction="#playKeyDb4" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button id="e4" fx:id="keyE4" layoutX="140.0" layoutY="61.0" mnemonicParsing="false" onAction="#playKeyE4" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button id="f4" fx:id="keyF4" layoutX="193.0" layoutY="61.0" mnemonicParsing="false" onAction="#playKeyF4" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button id="g4" fx:id="keyG4" layoutX="246.0" layoutY="61.0" mnemonicParsing="false" onAction="#playKeyG4" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button id="a4" fx:id="keyA4" layoutX="299.0" layoutY="61.0" mnemonicParsing="false" onAction="#playKeyA4" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button id="b4" fx:id="keyB4" layoutX="352.0" layoutY="61.0" mnemonicParsing="false" onAction="#playKeyB4" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button id="c5" fx:id="keyC5" layoutX="405.0" layoutY="61.0" mnemonicParsing="false" onAction="#playKeyC5" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button id="d5" fx:id="keyD5" layoutX="458.0" layoutY="61.0" mnemonicParsing="false" onAction="#playKeyD5" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button id="e5" fx:id="keyE5" layoutX="511.0" layoutY="61.0" mnemonicParsing="false" onAction="#playKeyE5" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button id="f5" fx:id="keyF5" layoutX="564.0" layoutY="61.0" mnemonicParsing="false" onAction="#playKeyF5" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button id="g5" fx:id="keyG5" layoutX="617.0" layoutY="61.0" mnemonicParsing="false" onAction="#playKeyG5" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button fx:id="keyEb4" layoutX="126.0" layoutY="35.0" mnemonicParsing="false" onAction="#playKeyEb4" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button fx:id="keyGb4" layoutX="231.0" layoutY="35.0" mnemonicParsing="false" onAction="#playKeyGb4" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button fx:id="keyAb4" layoutX="284.0" layoutY="35.0" mnemonicParsing="false" onAction="#playKeyAb4" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button fx:id="keyBb4" layoutX="337.0" layoutY="35.0" mnemonicParsing="false" onAction="#playKeyBb4" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button id="a5" fx:id="keyA5" layoutX="670.0" layoutY="61.0" mnemonicParsing="false" onAction="#playKeyA5" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button id="b5" fx:id="keyB5" layoutX="723.0" layoutY="61.0" mnemonicParsing="false" onAction="#playKeyB5" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button id="c6" fx:id="keyC6" layoutX="776.0" layoutY="61.0" mnemonicParsing="false" onAction="#playKeyC6" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button id="d6" fx:id="keyD6" layoutX="829.0" layoutY="61.0" mnemonicParsing="false" onAction="#playKeyD6" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button fx:id="keyDb5" layoutX="443.0" layoutY="35.0" mnemonicParsing="false" onAction="#playKeyDb5" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button fx:id="keyEb5" layoutX="496.0" layoutY="35.0" mnemonicParsing="false" onAction="#playKeyEb5" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button fx:id="keyGb5" layoutX="602.0" layoutY="35.0" mnemonicParsing="false" onAction="#playKeyGb5" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button fx:id="keyAb5" layoutX="655.0" layoutY="35.0" mnemonicParsing="false" onAction="#playKeyAb5" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button fx:id="keyBb5" layoutX="708.0" layoutY="35.0" mnemonicParsing="false" onAction="#playKeyBb5" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button fx:id="keyDb6" layoutX="815.0" layoutY="35.0" mnemonicParsing="false" onAction="#playKeyDb6" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button id="e6" fx:id="keyE6" layoutX="882.0" layoutY="61.0" mnemonicParsing="false" onAction="#playKeyE6" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button fx:id="keyEb6" layoutX="868.0" layoutY="35.0" mnemonicParsing="false" onAction="#playKeyEb6" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
       <Button fx:id="keyG1" layoutX="34.0" layoutY="346.0" mnemonicParsing="false" onAction="#playKeyG1" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyA1" layoutX="87.0" layoutY="346.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyB1" layoutX="140.0" layoutY="346.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyC2" layoutX="193.0" layoutY="346.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyD2" layoutX="246.0" layoutY="346.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyE2" layoutX="299.0" layoutY="346.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyF2" layoutX="352.0" layoutY="346.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyG2" layoutX="405.0" layoutY="346.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyA2" layoutX="458.0" layoutY="346.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyB2" layoutX="511.0" layoutY="346.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyC3" layoutX="564.0" layoutY="346.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyD3" layoutX="617.0" layoutY="346.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyE3" layoutX="670.0" layoutY="346.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyF3" layoutX="723.0" layoutY="346.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyG3" layoutX="776.0" layoutY="346.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyA3" layoutX="829.0" layoutY="346.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyB3" layoutX="882.0" layoutY="346.0" mnemonicParsing="false" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
-      <Button fx:id="keyBb3" layoutX="867.0" layoutY="320.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button fx:id="keyAb3" layoutX="815.0" layoutY="320.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button fx:id="keyGb3" layoutX="761.0" layoutY="320.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button fx:id="keyEb3" layoutX="655.0" layoutY="320.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button fx:id="keyDb3" layoutX="602.0" layoutY="320.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button fx:id="keyBb2" layoutX="497.0" layoutY="320.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button fx:id="keyAb2" layoutX="443.0" layoutY="320.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button fx:id="keyGb2" layoutX="391.0" layoutY="320.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button fx:id="keyEb2" layoutX="284.0" layoutY="320.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button fx:id="keyDb2" layoutX="231.0" layoutY="320.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button fx:id="keyBb1" layoutX="126.0" layoutY="320.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
-      <Button fx:id="keyAb1" layoutX="72.0" layoutY="320.0" mnemonicParsing="false" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button fx:id="keyA1" layoutX="87.0" layoutY="346.0" mnemonicParsing="false" onAction="#playKeyA1" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button fx:id="keyB1" layoutX="140.0" layoutY="346.0" mnemonicParsing="false" onAction="#playKeyB1" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button fx:id="keyC2" layoutX="193.0" layoutY="346.0" mnemonicParsing="false" onAction="#playKeyC2" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button fx:id="keyD2" layoutX="246.0" layoutY="346.0" mnemonicParsing="false" onAction="#playKeyD2" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button fx:id="keyE2" layoutX="299.0" layoutY="346.0" mnemonicParsing="false" onAction="#playKeyE2" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button fx:id="keyF2" layoutX="352.0" layoutY="346.0" mnemonicParsing="false" onAction="#playKeyF2" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button fx:id="keyG2" layoutX="405.0" layoutY="346.0" mnemonicParsing="false" onAction="#playKeyG2" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button fx:id="keyA2" layoutX="458.0" layoutY="346.0" mnemonicParsing="false" onAction="#playKeyA2" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button fx:id="keyB2" layoutX="511.0" layoutY="346.0" mnemonicParsing="false" onAction="#playKeyB2" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button fx:id="keyC3" layoutX="564.0" layoutY="346.0" mnemonicParsing="false" onAction="#playKeyC3" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button fx:id="keyD3" layoutX="617.0" layoutY="346.0" mnemonicParsing="false" onAction="#playKeyD3" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button fx:id="keyE3" layoutX="670.0" layoutY="346.0" mnemonicParsing="false" onAction="#playKeyE3" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button fx:id="keyF3" layoutX="723.0" layoutY="346.0" mnemonicParsing="false" onAction="#playKeyF3" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button fx:id="keyG3" layoutX="776.0" layoutY="346.0" mnemonicParsing="false" onAction="#playKeyG3" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button fx:id="keyA3" layoutX="829.0" layoutY="346.0" mnemonicParsing="false" onAction="#playKeyA3" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button fx:id="keyB3" layoutX="882.0" layoutY="346.0" mnemonicParsing="false" onAction="#playKeyB3" prefHeight="218.0" prefWidth="52.0" style="-fx-background-color: white;" />
+      <Button fx:id="keyBb3" layoutX="867.0" layoutY="320.0" mnemonicParsing="false" onAction="#playKeyBb3" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button fx:id="keyAb3" layoutX="815.0" layoutY="320.0" mnemonicParsing="false" onAction="#playKeyAb3" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button fx:id="keyGb3" layoutX="761.0" layoutY="320.0" mnemonicParsing="false" onAction="#playKeyGb3" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button fx:id="keyEb3" layoutX="655.0" layoutY="320.0" mnemonicParsing="false" onAction="#playKeyEb3" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button fx:id="keyDb3" layoutX="602.0" layoutY="320.0" mnemonicParsing="false" onAction="#playKeyDb3" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button fx:id="keyBb2" layoutX="497.0" layoutY="320.0" mnemonicParsing="false" onAction="#playKeyBb2" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button fx:id="keyAb2" layoutX="443.0" layoutY="320.0" mnemonicParsing="false" onAction="#playKeyAb2" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button fx:id="keyGb2" layoutX="391.0" layoutY="320.0" mnemonicParsing="false" onAction="#playKeyGb2" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button fx:id="keyEb2" layoutX="284.0" layoutY="320.0" mnemonicParsing="false" onAction="#playKeyEb2" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button fx:id="keyDb2" layoutX="231.0" layoutY="320.0" mnemonicParsing="false" onAction="#playKeyDb2" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button fx:id="keyBb1" layoutX="126.0" layoutY="320.0" mnemonicParsing="false" onAction="#playKeyBb1" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
+      <Button fx:id="keyAb1" layoutX="72.0" layoutY="320.0" mnemonicParsing="false" onAction="#playKeyAb1" prefHeight="135.0" prefWidth="29.0" style="-fx-background-color: black;" />
       <Label alignment="CENTER" layoutX="293.0" layoutY="607.0" prefHeight="70.0" prefWidth="358.0" text="PIANO SIM">
          <font>
             <Font size="31.0" />

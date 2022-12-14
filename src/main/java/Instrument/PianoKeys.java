@@ -3,6 +3,7 @@ package Instrument;
 import javafx.scene.media.AudioClip;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
+import javafx.util.Duration;
 
 import java.io.File;
 
@@ -45,6 +46,7 @@ public class PianoKeys{
     }
 
     public void playKey(){
+        soundPlayer.seek(soundPlayer.getStartTime());
         soundPlayer.play();
     }
 
@@ -57,6 +59,7 @@ public class PianoKeys{
 
             this.keySound = new Media(new File(fileName).toURI().toString());
             soundPlayer = new MediaPlayer(keySound);
+
         }
         catch(Exception e){
             System.out.println(e);

@@ -144,6 +144,120 @@ public class PianoController{
     }
 
     public void playKeyG1(){
-
+        p.getKey("G", 1).playKey();
+    } public void playKeyAb1(){
+        p.getKey("Ab", 1).playKey();
+    } public void playKeyA1(){
+        p.getKey("A", 1).playKey();
+    } public void playKeyBb1(){
+        p.getKey("Bb", 1).playKey();
+    } public void playKeyB1(){
+        p.getKey("B", 1).playKey();
+    } public void playKeyC2(){
+        p.getKey("C", 2).playKey();
+    } public void playKeyDb2(){
+        p.getKey("Db", 2).playKey();
+    } public void playKeyD2(){
+        p.getKey("D", 2).playKey();
+    } public void playKeyEb2(){
+        p.getKey("Eb", 2).playKey();
+    } public void playKeyE2(){
+        p.getKey("E", 2).playKey();
+    } public void playKeyF2(){
+        p.getKey("F", 2).playKey();
+    } public void playKeyGb2(){
+        p.getKey("Gb", 2).playKey();
+    } public void playKeyG2(){
+        p.getKey("G", 2).playKey();
+    } public void playKeyAb2(){
+        p.getKey("Ab", 2).playKey();
+    } public void playKeyA2(){
+        p.getKey("A", 2).playKey();
+    } public void playKeyBb2(){
+        p.getKey("Bb", 2).playKey();
+    } public void playKeyB2(){
+        p.getKey("B", 2).playKey();
+    } public void playKeyC3(){
+        p.getKey("C", 3).playKey();
+    } public void playKeyDb3(){
+        p.getKey("Db", 3).playKey();
+    } public void playKeyD3(){
+        p.getKey("D", 3).playKey();
+    } public void playKeyEb3(){
+        p.getKey("Eb", 3).playKey();
+    } public void playKeyE3(){
+        p.getKey("E", 3).playKey();
+    } public void playKeyF3(){
+        p.getKey("F", 3).playKey();
+    } public void playKeyGb3(){
+        p.getKey("Gb", 3).playKey();
+    } public void playKeyG3(){
+        p.getKey("G", 3).playKey();
+    } public void playKeyAb3(){
+        p.getKey("Ab", 3).playKey();
+    } public void playKeyA3(){
+        p.getKey("A", 3).playKey();
+    } public void playKeyBb3(){
+        p.getKey("Bb", 3).playKey();
+    } public void playKeyB3(){
+        p.getKey("B", 3).playKey();
+    } public void playKeyC4(){
+        p.getKey("C", 4).playKey();
+    } public void playKeyDb4(){
+        p.getKey("Db", 4).playKey();
+    } public void playKeyD4(){
+        p.getKey("D", 4).playKey();
+    } public void playKeyEb4(){
+        p.getKey("Eb", 4).playKey();
+    } public void playKeyE4(){
+        p.getKey("E", 4).playKey();
+    } public void playKeyF4(){
+        p.getKey("F", 4).playKey();
+    } public void playKeyGb4(){
+        p.getKey("Gb", 4).playKey();
+    } public void playKeyG4(){
+        p.getKey("G", 4).playKey();
+    } public void playKeyAb4(){
+        p.getKey("Ab", 4).playKey();
+    } public void playKeyA4(){
+        p.getKey("A", 4).playKey();
+    } public void playKeyBb4(){
+        p.getKey("Bb", 4).playKey();
+    } public void playKeyB4(){
+        p.getKey("B", 4).playKey();
+    } public void playKeyC5(){
+        p.getKey("C", 5).playKey();
+    } public void playKeyDb5(){
+        p.getKey("Db", 5).playKey();
+    } public void playKeyD5(){
+        p.getKey("D", 5).playKey();
+    } public void playKeyEb5(){
+        p.getKey("Eb", 5).playKey();
+    } public void playKeyE5(){
+        p.getKey("E", 5).playKey();
+    } public void playKeyF5(){
+        p.getKey("F", 5).playKey();
+    } public void playKeyGb5(){
+        p.getKey("Gb", 5).playKey();
+    } public void playKeyG5(){
+        p.getKey("G", 5).playKey();
+    } public void playKeyAb5(){
+        p.getKey("Ab", 5).playKey();
+    }public void playKeyA5(){
+        p.getKey("A", 5).playKey();
+    } public void playKeyBb5(){
+        p.getKey("Bb", 5).playKey();
+    } public void playKeyB5(){
+        p.getKey("B", 5).playKey();
+    } public void playKeyC6(){
+        p.getKey("C", 6).playKey();
+    } public void playKeyDb6(){
+        p.getKey("Db", 6).playKey();
+    } public void playKeyD6(){
+        p.getKey("D", 6).playKey();
+    } public void playKeyEb6(){
+        p.getKey("Eb", 6).playKey();
+    } public void playKeyE6(){
+        p.getKey("E", 6).playKey();
     }
 }

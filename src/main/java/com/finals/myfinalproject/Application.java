@@ -19,8 +19,6 @@ public class Application extends javafx.application.Application {
         stage.setTitle("MiniPiano");
         stage.setScene(scene);
         stage.show();
-        //pC.getPiano().getKey("A", 3).playKey();
-        //PianoKeys p = new PianoKeys(keyName.G,1);
 
 
     }
