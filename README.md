@@ -17,7 +17,10 @@ https://github.com/Recluisen/MyFinalProject/blob/77362331d9341dc1ccf04ed9dbd1d67
 - [x] Inheritance
 - [x] Polymorphism
 - [x] ArrayList
+https://github.com/Recluisen/MyFinalProject/blob/3d4680021b1b721b0095a14ac0efeffe1c7f89f3/src/main/java/com/finals/myfinalproject/PianoController.java#L12-L16
+https://github.com/Recluisen/MyFinalProject/blob/3d4680021b1b721b0095a14ac0efeffe1c7f89f3/src/main/java/com/finals/myfinalproject/PianoController.java#L151-L153
 - [x] Exception Handling
+https://github.com/Recluisen/MyFinalProject/blob/3d4680021b1b721b0095a14ac0efeffe1c7f89f3/src/main/java/Instrument/PianoKeys.java#L52-L66
 - [x] GUI
 - [ ] Interface
 - [ ] Abstract Class
