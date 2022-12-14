@@ -7,9 +7,9 @@ Mikhael Aryasatya Nugraha
 5025211062
 
 - [x] Casting/Conversion
-https://github.com/Recluisen/MyFinalProject/blob/2d90bc7d7141a450c6ac8ccdfd2a2e4b574d1654/src/main/java/Instrument/PianoKeys.java#L19-L22
+https://github.com/Recluisen/MyFinalProject/blob/7e68edaac7508c3daac17c9e323a774f525ed6b4/src/main/java/Instrument/PianoKeys.java#L19-L43
 - [x] Constructor
-- [x] Casting/Conversion
+https://github.com/Recluisen/MyFinalProject/blob/7e68edaac7508c3daac17c9e323a774f525ed6b4/src/main/java/Instrument/PianoKeys.java#L16-L18
 - [X] Overloading
 - [x] Overriding
 - [x] Encapsulation
