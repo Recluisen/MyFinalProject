@@ -1,9 +1,11 @@
 package com.finals.myfinalproject;
 
+import Instrument.Piano;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 
 public class PianoController{
+    private Piano p;
     @FXML
     private Button keyC2;
     @FXML
@@ -135,7 +137,10 @@ public class PianoController{
     private Button keyB5;
 
     public void initialize(){
-
+        p = new Piano();
+    }
+    public Piano getPiano(){
+        return p;
     }
 
     public void playKeyG1(){

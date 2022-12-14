@@ -7,7 +7,7 @@ import javafx.scene.media.MediaPlayer;
 import java.io.File;
 
 
-public class PianoKeys extends Piano{
+public class PianoKeys{
     MediaPlayer soundPlayer;
     Media keySound;
     int keyOctave;
